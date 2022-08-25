@@ -15,6 +15,12 @@
   </div>
 </template>
 <script setup>
+import {onMounted} from 'vue'
+import { HomeService } from './service/home/home.service'
+
+onMounted(async ()=>{
+  console.log(await HomeService.fetchHomes())
+})
 </script>
 
 <style scoped>

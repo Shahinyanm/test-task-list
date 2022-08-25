@@ -10,7 +10,7 @@ module.exports = {
         'main':'#45852D'
       },
       maxWidth:{
-        content:"1440px"
+        'content':"1440px"
       },
       width:{
         '36p':'36px'
